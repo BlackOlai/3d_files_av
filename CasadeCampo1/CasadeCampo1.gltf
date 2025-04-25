@@ -1,0 +1,202 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 264250,
+            "type": "VEC3",
+            "max": [
+                0.436352401971817,
+                0.28654971718788147,
+                0.5
+            ],
+            "min": [
+                -0.4363873600959778,
+                -0.2865481674671173,
+                -0.5000066757202148
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 264250,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 264250,
+            "type": "VEC2",
+            "max": [
+                0.9995786547660828,
+                0.9998576045036316
+            ],
+            "min": [
+                0.00019513489678502083,
+                0.0010806918144226074
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1499895,
+            "type": "SCALAR",
+            "max": [
+                264249
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 14455580,
+            "uri": "tripo_pbr_model_d07f34c4-f724-4182-8180-745a2baac10b_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 3171000,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3171000,
+            "byteLength": 3171000,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6342000,
+            "byteLength": 2114000,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 8456000,
+            "byteLength": 5999580,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_1.png"
+        },
+        {
+            "uri": "textures/image_0.png"
+        },
+        {
+            "uri": "textures/image_2.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "tripo_material_d07f34c4-f724-4182-8180-745a2baac10b",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0.800000011920929
+            },
+            "normalTexture": {
+                "index": 2
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "tripo_pbr_model_d07f34c4-f724-4182-8180-745a2baac10b",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "tripo_node_d07f34c4-f724-4182-8180-745a2baac10b",
+            "mesh": 0,
+            "extras": {
+                "name": "tripo_node_d07f34c4-f724-4182-8180-745a2baac10b"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        },
+        {
+            "source": 2,
+            "sampler": 2
+        }
+    ],
+    "scene": 0
+}
