@@ -1,0 +1,298 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 25,
+            "type": "VEC3",
+            "max": [
+                0.28331178426742554,
+                0.39596402645111084,
+                0.16760917007923126
+            ],
+            "min": [
+                -0.27603718638420105,
+                0.0016608309233561158,
+                -0.3052494525909424
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 25,
+            "type": "VEC3",
+            "max": [
+                0.9866713881492615,
+                0.9708543419837952,
+                0.7927239537239075
+            ],
+            "min": [
+                -0.9589962363243103,
+                -0.9994733929634094,
+                -0.9746873378753662
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 25,
+            "type": "VEC2",
+            "max": [
+                0.9984561800956726,
+                0.9741860032081604
+            ],
+            "min": [
+                0.03879557177424431,
+                0.1472712755203247
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 28,
+            "type": "SCALAR",
+            "max": [
+                24
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 291873,
+            "type": "VEC3",
+            "max": [
+                0.41991403698921204,
+                0.4999721646308899,
+                0.3430313467979431
+            ],
+            "min": [
+                -0.4199639558792114,
+                -0.5000075697898865,
+                -0.34290969371795654
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 291873,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 291873,
+            "type": "VEC2",
+            "max": [
+                0.9999209642410278,
+                0.999821126461029
+            ],
+            "min": [
+                0.0002236106083728373,
+                0.00005263090133666992
+            ]
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1498212,
+            "type": "SCALAR",
+            "max": [
+                291872
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 15333696,
+            "uri": "tripo_pbr_model_e2039063-8e92-4b96-bf66-7ce80e3b6d97_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 300,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 300,
+            "byteLength": 300,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 600,
+            "byteLength": 200,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 800,
+            "byteLength": 112,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 912,
+            "byteLength": 3502476,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3503388,
+            "byteLength": 3502476,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7005864,
+            "byteLength": 2334984,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 9340848,
+            "byteLength": 5992848,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_1.png"
+        },
+        {
+            "uri": "textures/image_0.png"
+        },
+        {
+            "uri": "textures/image_2.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "tripo_material_e2039063-8e92-4b96-bf66-7ce80e3b6d97",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0.800000011920929
+            },
+            "normalTexture": {
+                "index": 2
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 1,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                },
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 7,
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "tripo_pbr_model_e2039063-8e92-4b96-bf66-7ce80e3b6d97",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "tripo_node_e2039063-8e92-4b96-bf66-7ce80e3b6d97",
+            "mesh": 0,
+            "extras": {
+                "name": "tripo_node_e2039063-8e92-4b96-bf66-7ce80e3b6d97"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        },
+        {
+            "source": 2,
+            "sampler": 2
+        }
+    ],
+    "scene": 0
+}
